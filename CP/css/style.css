@@ -1,0 +1,24 @@
+body {
+	background-attachment: fixed;
+	background-color: #a4ffe8;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: rgb(126, 45, 173);
+	cursor: default;
+	text-align: center;
+	width: 100%;
+	float: left;
+}
+a{
+    border-radius: 10px;
+    background-color: rgba(156, 65, 247, 0.452);
+	text-decoration:solid;
+	color: #000;
+    
+}
+a:hover {
+	background-color: rgb(174, 163, 185);
+	text-decoration: none;
+	color: rgb(226, 17, 17);
+}

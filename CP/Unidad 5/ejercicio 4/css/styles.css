@@ -1,0 +1,33 @@
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+li {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid rgb(255,84,104);
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    display: flex;
+    margin-top: 200px;
+}
+.container > div {
+    font-size: 2vw;
+    padding: .5em;
+    color: white;
+}
+.red {
+    flex-grow: 1;
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+.blue {
+    background-color: blue;
+    width: 40vw;
+}

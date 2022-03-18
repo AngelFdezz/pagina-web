@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT agenda (persona)+>
+<!ELEMENT persona (nombre, tlf)>
+<!ATTLIST persona id ID #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT tlf (#PCDATA)>
+
+<persona>
+    <nombre>Ricardo Borriquero</nombre>
+    <tlf>957323088</tlf>
+</persona>
+<persona id="eva">
+    <nombre>Eva Risto</nombre>
+    <tlf>957313976</tlf>
+    <tw>@evaristo</tw>
+</persona>

@@ -1,0 +1,29 @@
+table {
+    font: 1em sans-serif;
+      color: purple;
+      background-color: black
+     }
+th[name="dia"] {
+    background-color: lightgreen
+         }
+td[name="hora"] {
+            background:lightsteelblue;
+        }
+td[name="prog"] {
+            background:lightgray;
+        }
+td[name="LMGSI"] {
+            background: lightpink;
+        }
+td[name="BADA"] {
+            background: lightsalmon;
+        }
+td[name="FOL"] {
+            background: lightslategrey;
+        } 
+td[name="SIIN"] {
+            background: lightcoral;
+        }  
+td[name="endes"] {
+            background: lightgoldenrodyellow;
+        }                  
